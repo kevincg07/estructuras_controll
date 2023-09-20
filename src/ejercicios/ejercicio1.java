@@ -16,13 +16,9 @@ public class ejercicio1 {
 		System.out.println("Ingrese el segundo numero");
 		num2 = leer.nextDouble();
 		
-		if(num1 == num2) {
-			System.out.println("Ambos son iguales");
-		} else if(num1 > num2) {
-			System.out.println("El primer numero es el mayor");
-		} else {
-			System.out.println("El segundo numero es el mayor");
-		}
+		String esMayor = (num1>num2)? "El numero 1 es el mayor": "El numero dos es mayor";
+		System.out.println(esMayor);
+
 	}
 
 }
